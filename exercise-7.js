@@ -16,7 +16,7 @@ while (rows > 0) {
     console.log (cetak);
     rows --;
 } 
-console.log (cetak);
+
 
 // Tugas nomor 3
 var rows3 = 5;
