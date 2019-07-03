@@ -1,7 +1,8 @@
 var tanggal = 1; // assign nilai variabel tanggal disini! (dengan angka antara 1 - 31)
 var bulan = 1; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
-var tahun = 1800;
+var tahun = 1900;
 
+if(tanggal > 0 && tanggal < 32 && bulan > 0 && bulan < 13 && tahun > 1899 && tahun < 2001) {
 switch(bulan) {
     case 1:
         console.log(tanggal + " Januari " + tahun); 
@@ -42,4 +43,7 @@ switch(bulan) {
     default:
         console.log('Mohon mengisi bulan dengan angka 1 - 12');
         break;
+}} else {
+    console.log('Mohon mengisi angka dari 1 - 31, bulan dari 1 - 12, dan tahun antara 1900 - 2000');
 }
+
