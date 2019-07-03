@@ -25,15 +25,35 @@ for(var loop4 = 20; loop4 > 0; loop4--) {
 }
 
 //Tugas nomor 3
-var counter = 0
+var counter = 1
 while(counter < 101) {
-    counter++;
     if ((counter%2) == 0) {
         console.log(counter +' adalah Genap');
     } else {
         console.log(counter + ' adalah Ganjil');
+    } counter++;
+}
+
+for(var counter1 = 1; counter1 < 101; counter1 = counter1+2) {
+    if (counter1%3 == 0) {
+        console.log(counter1 + ' kelipatan ' + counter1);
+    } else {
+        console.log('')
     }
 }
 
+for(var counter2 = 1; counter2 < 101; counter2 = counter2+5) {
+    if (counter2%6 == 0) {
+        console.log(counter2 + ' kelipatan ' + counter2);
+    } else {
+        console.log('')
+    }
+} 
 
-  
+for(var counter3 = 1; counter3 < 101; counter3 = counter3+9) {
+    if (counter3%10 == 0) {
+        console.log(counter3 + ' kelipatan ' + counter3);
+    } else {
+        console.log('')
+    }
+} 
