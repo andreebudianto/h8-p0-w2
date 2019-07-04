@@ -5,26 +5,26 @@ while(rows1 > 0) {
     rows1--;
 }
 // Tugas nomor 2
-var rows = 5;
-while (rows > 0) {
-  var cetak = '';
-  var rows1 = 5;
-    while (rows1 > 0) { 
-        var cetak = cetak + '*';
-        rows1 --;
-    } 
-    console.log (cetak);
-    rows --;
-} 
+var rows2 = 5;
+var base = 0;
+while (base < rows2) {
+  var temp = '';
+  var base1 = 0;
+  while (base1 < rows2) {
+    var temp = temp + '*';
+    base1++;
+  } 
+  console.log (temp);
+  base++;
+}
 
 
 // Tugas nomor 3
-var rows3 = 5;
 var temp = '';
-while (rows3 > 0) {
-    
-    var temp = temp + '*';
-    rows3 --;
-  
-  console.log(temp)
-}
+var base1 = 0;
+var rows3 = 5;
+while (base1 < rows3) {
+  var temp = temp + '*';
+  base1++;
+  console.log (temp);
+  } 
