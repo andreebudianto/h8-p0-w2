@@ -1,10 +1,10 @@
 function balikKata(kata) {  
-  var d = (kata.length)-1;
-  var c = '';
-  for(a=0;a<kata.length;a++) {
-    c = c+kata[d];
-    d = d-1;
-  } return c
+  var titik_awal_pembalikan = (kata.length)-1;
+  var pembalikan = '';
+  for(ujung = 0; ujung < kata.length; ujung++) {
+    pembalikan = pembalikan + kata[titik_awal_pembalikan];
+    titik_awal_pembalikan = titik_awal_pembalikan -1;
+  } return pembalikan;
 }
 
 // TEST CASES
