@@ -64,11 +64,11 @@ Algoritma :
 
 Pseudocode :
 SAVE "nail record" with 0
-REPEAT nail checks on every students
+WHILE nail record <= 40
+DO check fingernail of every students
     IF found overgrown nails THEN
         DO "Give punishment"
     ELSE 
         DO "Give praise"
     END IF
     ADD 1 to "nail record"
-UNTIL nail record = 40
