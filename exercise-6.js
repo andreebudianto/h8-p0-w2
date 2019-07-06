@@ -1,7 +1,7 @@
 // Tugas nomor 1
 console.log('Looping Pertama'.toUpperCase())
 var loop = 2;
-while(loop < 21) { 
+while(loop <= 20) { 
   console.log(loop + ' - I love coding ' ); 
   loop = loop + 2; 
 }
@@ -15,7 +15,7 @@ while(loop1 > 1) {
 
 // Tugas nomor 2
 console.log('Looping Pertama'.toUpperCase())
-for(var loop3 = 1; loop3 < 21; loop3++) {
+for(var loop3 = 1; loop3 <=20; loop3++) {
     console.log(loop3 + ' - I love coding');
 }
 
