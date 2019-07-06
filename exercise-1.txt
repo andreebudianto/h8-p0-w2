@@ -47,9 +47,9 @@ Algoritma :
 
 Pseudocode :
 SAVE "clothes" with 0
-WHILE "clothes" <21
+WHILE "clothes" <=20
     INCREMENT "clothes" by 1
-DO "Turn ON Laundry Machine"
+    DO "Turn ON Laundry Machine"
 
 Tugas 4: Periksa Kuku
 Algoritma :
@@ -65,10 +65,10 @@ Algoritma :
 Pseudocode :
 SAVE "nail record" with 0
 WHILE "nail record" <= 40
-DO check fingernail of every students
-    IF found overgrown nails THEN
-        DO "Give punishment"
-    ELSE 
-        DO "Give praise"
-    END IF
+    DO check fingernail of every students
+        IF found overgrown nails THEN
+            DO "Give punishment"
+        ELSE 
+            DO "Give praise"
+        END IF
     ADD 1 to "nail record"
