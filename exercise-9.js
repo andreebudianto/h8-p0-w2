@@ -1,13 +1,13 @@
 // Tugas nomor 1
 function shoutOut() {
-return 'Halo Function';
+    return 'Halo Function';
 }
 
 console.log(shoutOut())
 
 // Tugas nomor 2
 function calculateMultiply(num1, num2) {
-return num1 * num2;
+    return num1 * num2;
 }
 
 var num1 = 5;
@@ -18,7 +18,7 @@ console.log(hasilPerkalian); // Menampilkan angka 30
 
 // Tugas nomor 3
 function processSentence() {
-return 'Nama saya ' + name + ', umur saya ' + age + 'tahun, alamat saya di ' + address + ', dan saya punya hobby yaitu ' + hobby + '!'}
+    return 'Nama saya ' + name + ', umur saya ' + age + 'tahun, alamat saya di ' + address + ', dan saya punya hobby yaitu ' + hobby + '!'}
 
 var name = "Agus";
 var age = 30;
