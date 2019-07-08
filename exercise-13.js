@@ -4,12 +4,12 @@ function xo(str) {
     var o = 0;
     for(a=0; a<(str.length); a++) {
         
-        if(str[a] == 'x') {
+        if(str[a] === 'x') {
             x = x + 1;
         } else {
             o = o + 1;
         } 
-    } return(x==o); 
+    } return(x===o); 
   }
   
   // TEST CASES
