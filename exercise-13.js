@@ -1,13 +1,20 @@
-var x = 0; 
-var o = 0;
-function findx(teks) {
-    for(a=0; a<(teks.length); a++) {
-        if(teks[a] == 'x') {
+
+function xo(str) {
+    var x = 0; 
+    var o = 0;
+    for(a=0; a<(str.length); a++) {
+        
+        if(str[a] == 'x') {
             x = x + 1;
         } else {
             o = o + 1;
         } 
-    } console.log(x==o); 
-}
-
-findx('xoxo')
+    } return(x==o); 
+  }
+  
+  // TEST CASES
+  console.log(xo('xoxoxo')); // true
+  console.log(xo('oxooxo')); // false
+  console.log(xo('oxo')); // false
+  console.log(xo('xxxooo')); // true
+  console.log(xo('xoxooxxo')); // true
